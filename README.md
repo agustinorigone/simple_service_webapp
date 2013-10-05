@@ -17,6 +17,7 @@ sudo apt-get install tomcat7-admin
       <user username="admin" password="admin" roles="admin-gui"/>
 
 Recursos:
+
 	http://www.mkyong.com/webservices/jax-rs/jersey-hello-world-example/
 	http://blog.bdoughan.com/2010/08/creating-restful-web-service-part-55.html
 	http://maven.apache.org/guides/getting-started/maven-in-five-minutes.html

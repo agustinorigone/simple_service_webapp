@@ -3,9 +3,9 @@ simple_service_webapp
 
 Taller de Programación 2: Prueba de concepto para la interacción entre la capa de Usuario y Presentación
 
-# Documentación POC client-server tp taller 2
+# Documentación: POC client-server tp taller 2 
 
-Requerimientos:
+- Requerimientos:
 
 
 	sudo apt-get update
@@ -19,7 +19,7 @@ Agregar usuarios en el conf file "tomcat-users.xml", ie:
     <role rolename="admin-gui"/>
     <user username="admin" password="admin" roles="admin-gui"/>
 
-Recursos:
+- Recursos:
 
 	http://www.mkyong.com/webservices/jax-rs/jersey-hello-world-example/
 	http://blog.bdoughan.com/2010/08/creating-restful-web-service-part-55.html
@@ -35,7 +35,7 @@ Recursos:
 	
 
 
-Eclipse: 
+- Eclipse: 
 	http://www.eclipse.org/downloads/packages/eclipse-standard-431/keplersr1
 
 	- plugins desde eclipse_marketplace o "install new software":
@@ -67,7 +67,7 @@ Para hacer el deploy a heroku:
   
   
   
- Y las vistas??
+ - Y las vistas??
  
  Se decidió no trabajar con JSP ni templates del lado del servidor, or lo que este expone unicamente una api REST. Las vistas, entonces, se manejaran con client-side templates. A continuación algo de info al respecto:
  

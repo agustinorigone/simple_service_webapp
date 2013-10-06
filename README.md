@@ -21,16 +21,23 @@ Agregar usuarios en el conf file "tomcat-users.xml", ie:
 
 - Recursos:
 
+	
 	http://www.mkyong.com/webservices/jax-rs/jersey-hello-world-example/
+	
 	http://blog.bdoughan.com/2010/08/creating-restful-web-service-part-55.html
+	
 	http://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
+	
 	http://www.techzoo.org/how-to/restful-java-web-service-with-xml-response.html
+	
 	http://www.techzoo.org/how-to/how-to-create-simple-rest-web-service-using-jersey.html
+	
 	http://www.techzoo.org/tutorials/java-tutorials/consuming-restful-web-service-using-jquery-ajax-client.html
 	
 	https://jersey.java.net/
+	
 	https://jersey.java.net/documentation/latest/index.html
-
+	
 	http://www.w3schools.com/xml/xml_http.asp
 	
 
@@ -50,9 +57,6 @@ Agregar usuarios en el conf file "tomcat-users.xml", ie:
   
 	  http://blog.teamextension.com/maven-as-eclipse-dynamic-web-module-556
 
-Si se quiere hacer el deploy desde el eclipse:
-
-	http://stackoverflow.com/questions/13423593/eclipse-4-2-juno-cannot-create-a-server-using-the-selected-type-in-tomcat-7
 
 Si se quiere hacer el deploy manualmente:
 

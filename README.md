@@ -45,7 +45,8 @@ Agregar usuarios en el conf file "tomcat-users.xml", ie:
   		Web XML, Jave EE,... (algunos paquetes se pueden sacar)
 
 	- Si da error al importar el projecto (click derecho->import->maven project), hacer en approot/ :
-		  mvn eclipse:clean
+		  
+			mvn eclipse:clean
 	
 	- Setearlo como DWM:
   
@@ -79,3 +80,5 @@ Para hacer el deploy a heroku:
  
  La idea del templating es hacer GET/POST al server, recibiendo y enviando JSON únicamente o xml si es necesario.
  
+- Ejemplo online:
+		http://simple-service-webapp.herokuapp.com/

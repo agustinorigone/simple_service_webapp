@@ -6,13 +6,15 @@ Taller de Programación 2: Prueba de concepto para la interacción entre la capa
 # Documentación: POC client-server tp taller 2 
 
 - Requerimientos:
+	
+		sudo apt-get update
+		sudo apt-get upgrade
+        sudo apt-get install maven
+        sudo apt-get install tomcat7
+        sudo apt-get install tomcat7-admin 
+	
+	
 
-
-	sudo apt-get update
-	sudo apt-get upgrade
-	sudo apt-get install maven
-	sudo apt-get install tomcat7
-	sudo apt-get install tomcat7-admin 
 
 Agregar usuarios en el conf file "tomcat-users.xml", ie:
 	
@@ -22,23 +24,15 @@ Agregar usuarios en el conf file "tomcat-users.xml", ie:
 - Recursos:
 
 	
-	http://www.mkyong.com/webservices/jax-rs/jersey-hello-world-example/
-	
-	http://blog.bdoughan.com/2010/08/creating-restful-web-service-part-55.html
-	
-	http://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
-	
-	http://www.techzoo.org/how-to/restful-java-web-service-with-xml-response.html
-	
-	http://www.techzoo.org/how-to/how-to-create-simple-rest-web-service-using-jersey.html
-	
-	http://www.techzoo.org/tutorials/java-tutorials/consuming-restful-web-service-using-jquery-ajax-client.html
-	
-	https://jersey.java.net/
-	
-	https://jersey.java.net/documentation/latest/index.html
-	
-	http://www.w3schools.com/xml/xml_http.asp
+		http://www.mkyong.com/webservices/jax-rs/jersey-hello-world-example/
+		http://blog.bdoughan.com/2010/08/creating-restful-web-service-part-55.html
+		http://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
+		http://www.techzoo.org/how-to/restful-java-web-service-with-xml-response.html
+		http://www.techzoo.org/how-to/how-to-create-simple-rest-web-service-using-jersey.html
+		http://www.techzoo.org/tutorials/java-tutorials/consuming-restful-web-service-using-jquery-ajax-client.html
+		https://jersey.java.net/
+		https://jersey.java.net/documentation/latest/index.html
+		http://www.w3schools.com/xml/xml_http.asp
 	
 
 
@@ -60,10 +54,11 @@ Agregar usuarios en el conf file "tomcat-users.xml", ie:
 
 Si se quiere hacer el deploy manualmente:
 
-	- Dentro de la carpeta root de la aplicacion ejecutar:
+Dentro de la carpeta root de la aplicacion, ejecutar:
+	
 		mvn clean package && sudo cp ./target/simple-service-webapp.war /usr/share/tomcat7/webapps/
 
-	- Hacer el deploy del war en tomcat
+Hacer el deploy del war en tomcat
 
 
 Para hacer el deploy a heroku:

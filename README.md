@@ -68,7 +68,7 @@ Para hacer el deploy a heroku:
   
  - Y las vistas??
  
- Se decidió no trabajar con JSP ni templates del lado del servidor, or lo que este expone unicamente una api REST. Las vistas, entonces, se manejaran con client-side templates. A continuación algo de info al respecto:
+ Se decidió no trabajar con JSP ni templates del lado del servidor, por lo que este expone unicamente una api REST. Las vistas, entonces, se manejaran con client-side templates, quedando fuera del scope de esta poc. A continuación algo de info al respecto:
  
  http://codebrief.com/2012/01/the-top-10-javascript-mvc-frameworks-reviewed/
  http://engineering.linkedin.com/frontend/leaving-jsps-dust-moving-linkedin-dustjs-client-side-templates
